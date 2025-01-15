@@ -1,0 +1,54 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+*.env
+
+# Virtual environment folder
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Flask logs and temporary files
+instance/
+*.log
+*.sqlite3
+*.db
+*.pkl
+
+# Cache and other generated files
+*.cache
+*.coverage
+coverage.xml
+nosetests.xml
+*.pyc
+
+# Frontend build and dependency files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Static files built or generated
+staticfiles/
+static/
+
+# Flask session files
+*.session
+
+# Deployment-related files
+*.bak
+*.swp
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Emacs file
+*~
