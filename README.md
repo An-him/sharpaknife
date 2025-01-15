@@ -27,7 +27,7 @@ Before running the app, ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://git@github.com:An-him/Kisu.git
+   git clone git@github.com:An-him/sharpaknife.git
    ```
 2. Create the virtual Environment:
    ```bash
@@ -45,7 +45,7 @@ Before running the app, ensure you have the following installed on your system:
 1. Create a .env file in the root directory and add the following environment variables:
    ```
    SECRET_KEY=SECRET_KEY
-   DEBUG=
+   DEBUG=True
    JWT_SECRET_KEY=JWT_SECRET_KEY
    ```
 2. Initialize the database:
@@ -98,5 +98,5 @@ The API documentation is available at http://127.0.0.1:5000/swagger/ once the se
 
 **Notes:**
 - **Access Levels:**
-  - **Public:** No authentication required.
-  - **Authenticated:** Requires a valid authentication token.
+- **Public:** No authentication required.
+- **Authenticated:** Requires a valid authentication token.
